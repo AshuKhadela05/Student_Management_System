@@ -16,29 +16,18 @@
 #         # Title
 #         title = Label(self.root, text="View Student Results", padx=10, compound=LEFT,font=("montserrat", 20, "bold"), bg="#232323", fg="white")
 #         title.place(x=0, y=0, relwidth=1, height=50)
-        
-        
+                
 #         # Search
 #         self.var_search=StringVar()
 #         lbl_search=Label(self.root,text="Search By Roll Number:",font=("montserrat",20,"bold"),bg="white").place(x=250,y=100)
 #         txt_search=Entry(self.root,textvariable=self.var_search,font=("montserrat",20,),bg="#ffcbd1").place(x=620,y=100,width=250)
 
 #         btn_search = Button(self.root, text="Search", font=("montserrat", 15, 'bold'), bg="#17A2B8", fg="black", cursor="hand2").place(x=900, y=100, width=120, height=40)
-#         btn_clear=Button(self.root,text="Clear",font=("montserrat",15),bg="red",fg="white",activebackground="red",cursor="hand2").place(x=1050,y=100,width=120,height=40)
-        
-        
-        
+#         btn_clear=Button(self.root,text="Clear",font=("montserrat",15),bg="red",fg="white",activebackground="red",cursor="hand2").place(x=1050,y=100,width=120,height=40)        
         
 #         # Footer
 #         footer = Label(self.root, text="SMS - Student Management System",font=("montserrat", 12), bg="#232323", fg="white").pack(side=BOTTOM,fill=X)
-#         title.place(x=0, y=0, relwidth=1, height=50)
-      
-      
-      
-      
-      
-      
-      
+#         title.place(x=0, y=0, relwidth=1, height=50)     
         
 #     def center_window(self, width=1450, height=700):
 #         screen_width = self.root.winfo_screenwidth()
@@ -51,7 +40,6 @@
 #     root = Tk()
 #     obj = reportClass(root)
 #     root.mainloop()
-
 
 import mysql.connector
 import csv
@@ -184,4 +172,3 @@ if __name__ == "__main__":
     root = Tk()
     obj = ReportClass(root)
     root.mainloop()
-
