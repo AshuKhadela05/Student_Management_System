@@ -354,6 +354,7 @@ class SMS:
     def update_details(self):
         con = mysql.connector.connect(host="localhost", user="root", password="Ashish@0629", database="sms")
         cur = con.cursor()
+        
         try:
             cur.execute("SELECT * FROM course")
             cr = cur.fetchall()
