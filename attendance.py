@@ -13,7 +13,7 @@ class AttendanceClass:
         self.root.update_idletasks()
         # self.center_window()
         self.root.focus_force()
-
+        
          # Title
         title = Label(self.root, text="Manage Student Attendance", padx=10, compound=LEFT, font=("montserrat", 20, "bold"), bg="#0C1C47", fg="white")
         title.place(x=0, y=0, relwidth=1, height=50)
